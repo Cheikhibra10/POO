@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Compile Java code
-                bat 'javac HelloWorld.java'
+                sh 'javac HelloWorld.java'
             }
         }
         
