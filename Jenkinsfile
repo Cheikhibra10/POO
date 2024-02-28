@@ -13,14 +13,14 @@ pipeline {
         stage('Test') {
             steps {
                 // Run unit tests (if applicable)
-                echo 'No unit tests for this project'
+                echo 'Pas encore de test pour ce project'
             }
         }
         
         stage('Deploy') {
             steps {
                 // Deployment steps (if applicable)
-                echo 'No deployment steps for this project'
+                echo 'Pas encore de deploiement pour ce project'
             }
         }
     }
