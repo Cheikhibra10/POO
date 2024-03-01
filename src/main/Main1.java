@@ -37,10 +37,10 @@ public class Main1 {
             }
         }
         if (!Exist){
-            System.out.println("Aucun Internes trouvés.");
+            System.out.println("Aucun Internes trouvés!");
         }
        if (!Oki){
-            System.out.println("Aucun Externe trouvés.");
+            System.out.println("Aucun Externe trouvés!");
         }
     }
 }
