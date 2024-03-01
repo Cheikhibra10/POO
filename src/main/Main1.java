@@ -26,13 +26,13 @@ public class Main1 {
             if (etudiant instanceof Interne){
                 Exist = true;
 
-                System.out.println("liste des Etudiants Internes");
+                System.out.println("liste des Etudiants Internes:");
                 System.out.println(etudiant);
 
             }
             if (etudiant instanceof Externe){
                 Oki = true;
-                System.out.println("liste des Etudiants Externes");
+                System.out.println("liste des Etudiants Externes:");
                 System.out.println(etudiant);
             }
         }
